@@ -1,0 +1,8 @@
+def count_vowels(sentence):
+  vowel_count=0
+  vowels='aeiouAEIOU'
+  for char in sentence:
+    if char in vowels:
+      vowel_count+=1
+  return vowel_count
+print(count_vowels("I love data science"))
