@@ -1,0 +1,11 @@
+from warnings import catch_warnings
+temps = [78, 85, 91, 88, 76, 82, 95, 89, 84, 79, 92, 87, 81, 90]
+hottest = max(temps)
+average = sum(temps)/(len(temps))
+hot_days = len([t for t in temps if t>85])
+
+
+
+print("Hottest day:", hottest)
+print("Average temp:", average)
+print("Days above 85:", hot_days)
