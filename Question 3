@@ -1,0 +1,8 @@
+#Question 3
+from types import new_class
+
+secret = "pzyztzhzoznzizszazwzezszozmze"
+def decode(message):
+  new_secret=message[0:31:2]
+  return new_secret
+print(decode(secret))
